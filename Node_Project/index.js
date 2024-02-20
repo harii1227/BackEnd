@@ -6,5 +6,9 @@
 // console.log(add(5,6))
 
 
-const operation = require("./myModule.js")
-console.log(typeof operation)
+const operations = require("./myModule.js")
+console.log(typeof operations)
+console.log(operations)
+
+console.log(operations.add(5,6))
+console.log(operations.product(5,6))
