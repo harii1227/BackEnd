@@ -2,7 +2,7 @@
 //  * Read from an extrnal file
 //  */
 
-// const fs = require('fs')
+const fs = require('fs')
 // // console.log(typeof fs) 
 
 // /**
